@@ -15,5 +15,7 @@ subscriber: subscriber.o
 subscriber.o: subscriber.c
 	gcc -g -Wall -c subscriber.c
 
+docker:
+	docker build - < Dockerfile
 clean:
 	rm -f publisher.o publisher subscriber.o subscriber

@@ -13,7 +13,6 @@
 #include <sys/signal.h>
 #include <arpa/inet.h>
 
-#include <mqtt_protocol.h>
 #include <mosquitto.h>
 
 #define CONN_ERR_TIMEOUT 1
